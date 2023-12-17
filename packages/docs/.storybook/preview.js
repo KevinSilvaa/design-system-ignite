@@ -3,7 +3,6 @@ import { themes } from '@storybook/theming'
 
 const preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -11,8 +10,14 @@ const preview = {
       },
     },
     docs: {
-      theme: themes.dark
-    }
+      theme: themes.dark,
+    },
+    options: {
+      storySort: {
+        order: ['Tokens', 'Data display', 'Surfaces', 'Typography', 'Form'],
+        locales: 'en-US',
+      },
+    },
   },
 };
 
