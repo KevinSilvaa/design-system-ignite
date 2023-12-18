@@ -254,7 +254,10 @@ var Button = styled("button", {
     height: "$4"
   },
   "&:disabled": {
-    backgroundColor: "$gray200"
+    cursor: "not-allowed"
+  },
+  "&:focus": {
+    boxShadow: "0 0 0 2px $colors$gray100"
   },
   variants: {
     variant: {
@@ -265,8 +268,7 @@ var Button = styled("button", {
           backgroundColor: "$ignite300"
         },
         "&:disabled": {
-          backgroundColor: "$gray200",
-          cursor: "not-allowed"
+          backgroundColor: "$gray200"
         }
       },
       secondary: {
@@ -277,7 +279,7 @@ var Button = styled("button", {
           color: "$white"
         },
         "&:disabled": {
-          backgroundColor: "$gray200",
+          color: "$gray200",
           borderColor: "$gray200"
         }
       },
@@ -287,7 +289,7 @@ var Button = styled("button", {
           color: "$white"
         },
         "&:disabled": {
-          backgroundColor: "$gray600"
+          color: "$gray600"
         }
       }
     },
