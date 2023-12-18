@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/tokens",
+  "name": "@ignite-ui-kevinsilvaa/tokens",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@ignite-ui/ts-config": "*",
-    "@ignite-ui/eslint-config": "*",
+    "@ignite-ui-kevinsilvaa/ts-config": "*",
+    "@ignite-ui-kevinsilvaa/eslint-config": "*",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3"
   }
