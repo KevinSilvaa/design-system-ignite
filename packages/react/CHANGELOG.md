@@ -1,5 +1,11 @@
 # @ignite-ui-kevinsilvaa/react
 
+## 2.1.0
+
+### Minor Changes
+
+- Add Toast and Tooltip components and a red color for Toast error variant
+
 ## 2.0.1
 
 ### Patch Changes
