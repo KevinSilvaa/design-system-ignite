@@ -12,6 +12,10 @@ export default {
     type: 'normal',
   },
   argTypes: {
+    type: {
+      options: ['normal', 'success', 'error'],
+      control: { type: 'inline-radio' },
+    },
     open: {
       control: {
         type: 'boolean',
