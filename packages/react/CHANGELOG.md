@@ -1,5 +1,11 @@
 # @ignite-ui-kevinsilvaa/react
 
+## 2.4.0
+
+### Minor Changes
+
+- Change some styles in TextInput component
+
 ## 2.3.0
 
 ### Minor Changes
