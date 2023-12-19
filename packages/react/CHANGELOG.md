@@ -1,5 +1,11 @@
 # @ignite-ui-kevinsilvaa/react
 
+## 2.2.0
+
+### Minor Changes
+
+- Fix TextInput type error
+
 ## 2.1.0
 
 ### Minor Changes
