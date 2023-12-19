@@ -26,7 +26,7 @@ const config = {
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: true,
   },
   viteFinal: (config, { configType }) => {
     if (configType === 'PRODUCTION') {

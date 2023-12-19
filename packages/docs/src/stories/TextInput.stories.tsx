@@ -9,7 +9,6 @@ import {
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => {

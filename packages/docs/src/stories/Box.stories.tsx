@@ -4,7 +4,6 @@ import { Box, BoxProps, Text } from '@ignite-ui-kevinsilvaa/react'
 export default {
   title: 'Surfaces/Box',
   component: Box,
-  tags: ['autodocs'],
   args: {
     children: <Text>Teste elemento box</Text>,
   },

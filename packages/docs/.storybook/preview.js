@@ -9,8 +9,8 @@ const preview = {
         date: /Date$/,
       },
     },
-    docs: {
-      theme: themes.dark,
+    backgrounds: {
+      default: 'dark',
     },
     options: {
       storySort: {
