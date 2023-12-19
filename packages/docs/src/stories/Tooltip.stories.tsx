@@ -7,7 +7,7 @@ export default {
   args: {
     content: '21 de Outubro - Indisponível',
     children: (
-      <Button css={{ margin: '$10 0' }}>Select a day for your exam</Button>
+      <Button css={{ margin: '$10 0' }}>Selecione o dia da sua consulta</Button>
     ),
   },
   argTypes: {
